@@ -108,6 +108,10 @@ declare namespace Env {
     readonly VITE_AUTOMATICALLY_DETECT_UPDATE?: CommonType.YesOrNo;
     /** show proxy url log in terminal */
     readonly VITE_PROXY_LOG?: CommonType.YesOrNo;
+    /** Supabase project url */
+    readonly VITE_SUPABASE_URL: string;
+    /** Supabase publishable anon key */
+    readonly VITE_SUPABASE_ANON_KEY: string;
     /** The launch editor */
     readonly VITE_DEVTOOLS_LAUNCH_EDITOR?: import('vite-plugin-vue-devtools').VitePluginVueDevToolsOptions['launchEditor'];
   }

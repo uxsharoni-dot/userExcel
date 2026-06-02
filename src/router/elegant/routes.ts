@@ -74,5 +74,16 @@ export const generatedRoutes: GeneratedRoute[] = [
       constant: true,
       hideInMenu: true
     }
+  },
+  {
+    name: 'user-info',
+    path: '/user-info',
+    component: 'layout.base$view.user-info',
+    meta: {
+      title: 'user-info',
+      i18nKey: 'route.user-info',
+      icon: 'mdi:account',
+      order: 2
+    }
   }
 ];
